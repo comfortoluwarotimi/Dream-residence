@@ -1,0 +1,166 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background: url(./unsplash.jpg);
+    height: 100%;
+    overflow: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background: url('./unsplash.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+}
+
+.auth-buttons .login {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.auth-buttons .signup {
+    background: #B7F34D;
+    color: #000;
+}
+
+.auth-buttons a:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+
+.hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    background: url('path/to/background.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    font-size: 2rem;
+}
+
+
+
+.help {
+    margin: 2rem 0;
+    font-size: 1.25rem;
+    color: #fff;
+    padding-top: -40px;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.action-button {
+    background: #2C2C2C;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+    margin-top: -50px;
+}
+
+.action-button :hover {
+    background: #fff;
+    color: #000;
+}
+
+.find-properties {
+    justify-content: flex-end;
+    display: inline-block;
+    margin-top: -3%;
+    background: #B7F34D;
+    color: #000;
+    text-decoration: none;
+    padding: 0.75rem 2rem;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+    float: right;
+}
+
+.find-properties:hover {
+    background: #fff;
+    color: #fff;
+}
+.div{
+    position: absolute;
+    margin-top: -200px;
+    margin-right:40px;
+}
+.sm{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.tex{
+    width: 400px;
+    margin-top: 20px;
+    color: #fff;
+}
+
